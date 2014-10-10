@@ -16,7 +16,41 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+
+        
+        LRGooglePlusClient.sharedInstance().clientID = "339371255167-ejgk1s6ujk3eja1f1mgj5rg18oldliqm.apps.googleusercontent.com"
+        
+        //LRGooglePlusClient.sharedInstance().signIn(LRGooglePlusClient.sharedInstance())
+        
+        //UIApplication.sharedApplication().openURL()
+        
+        
+//        var signIn = GPPSignIn.sharedInstance() as GPPSignIn
+//        signIn.shouldFetchGooglePlusUser = true
+//        signIn.shouldFetchGoogleUserEmail = true
+//        signIn.delegate = self
+        
+        GPPSignIn.sharedInstance().clientID = "339371255167-ejgk1s6ujk3eja1f1mgj5rg18oldliqm.apps.googleusercontent.com"
+
+        println("came 1")
+        
+        
         return true
+    }
+    
+    
+    func application(application: UIApplication, openURL url: NSURL, sourceApplication: String, annotation: AnyObject?) -> Bool {
+        
+        println("came here..")
+
+        
+        //GPPURLHandler.handleURL(url, sourceApplication: nil, annotation: nil)
+        
+        return GPPURLHandler.handleURL(url, sourceApplication: sourceApplication, annotation:annotation)
+        
+        //return true
+        
+        //return LRGooglePlusClient.sharedInstance().application(application, openURL: url, sourceApplication: sourceApplication, annotation: annotation)
     }
 
     func applicationWillResignActive(application: UIApplication) {

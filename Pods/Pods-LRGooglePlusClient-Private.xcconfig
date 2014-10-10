@@ -1,0 +1,5 @@
+#include "Pods-LRGooglePlusClient.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/BuildHeaders" "${PODS_ROOT}/BuildHeaders/LRGooglePlusClient" "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/AFNetworking" "${PODS_ROOT}/Headers/LRGooglePlusClient" "${PODS_ROOT}/Headers/NXOAuth2Client" "${PODS_ROOT}/Headers/google-plus-ios-sdk"
+OTHER_LDFLAGS = -ObjC ${PODS_LRGOOGLEPLUSCLIENT_OTHER_LDFLAGS}
+PODS_ROOT = ${SRCROOT}

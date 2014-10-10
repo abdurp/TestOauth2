@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		275FBBB7CA194EFFB2CB2B36 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBF6B0842FB04ED694917E9D /* libPods.a */; };
+		8424ED3419E8311E00ABE488 /* BrandWatchBridgingHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 8424ED3319E8311E00ABE488 /* BrandWatchBridgingHeader.m */; };
+		8424ED3719E8332200ABE488 /* YouTubeClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424ED3619E8332200ABE488 /* YouTubeClient.swift */; };
+		8424ED3919E83B1E00ABE488 /* YouTubeGPPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424ED3819E83B1E00ABE488 /* YouTubeGPPClient.swift */; };
 		84CDC90B19E6E0E10031D6D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CDC90A19E6E0E10031D6D2 /* AppDelegate.swift */; };
 		84CDC90D19E6E0E10031D6D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CDC90C19E6E0E10031D6D2 /* ViewController.swift */; };
 		84CDC91019E6E0E10031D6D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84CDC90E19E6E0E10031D6D2 /* Main.storyboard */; };
 		84CDC91219E6E0E10031D6D2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84CDC91119E6E0E10031D6D2 /* Images.xcassets */; };
 		84CDC91519E6E0E10031D6D2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84CDC91319E6E0E10031D6D2 /* LaunchScreen.xib */; };
 		84CDC92119E6E0E10031D6D2 /* TestOauth2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CDC92019E6E0E10031D6D2 /* TestOauth2Tests.swift */; };
+		84CDC92C19E6E9BC0031D6D2 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 84CDC92A19E6E9BC0031D6D2 /* Podfile */; };
+		84CDC92D19E6E9BC0031D6D2 /* TemplateIcon2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CDC92B19E6E9BC0031D6D2 /* TemplateIcon2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +32,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4929334C8E77460FB16970EB /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		8424ED3219E8311E00ABE488 /* TestOauth2-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestOauth2-Bridging-Header.h"; sourceTree = "<group>"; };
+		8424ED3319E8311E00ABE488 /* BrandWatchBridgingHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrandWatchBridgingHeader.m; sourceTree = "<group>"; };
+		8424ED3619E8332200ABE488 /* YouTubeClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YouTubeClient.swift; sourceTree = "<group>"; };
+		8424ED3819E83B1E00ABE488 /* YouTubeGPPClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YouTubeGPPClient.swift; sourceTree = "<group>"; };
 		84CDC90519E6E0E10031D6D2 /* TestOauth2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestOauth2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84CDC90919E6E0E10031D6D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84CDC90A19E6E0E10031D6D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +47,9 @@
 		84CDC91A19E6E0E10031D6D2 /* TestOauth2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestOauth2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84CDC91F19E6E0E10031D6D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84CDC92019E6E0E10031D6D2 /* TestOauth2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestOauth2Tests.swift; sourceTree = "<group>"; };
+		84CDC92A19E6E9BC0031D6D2 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		84CDC92B19E6E9BC0031D6D2 /* TemplateIcon2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TemplateIcon2x.png; sourceTree = "<group>"; };
+		EBF6B0842FB04ED694917E9D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				275FBBB7CA194EFFB2CB2B36 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +71,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8424ED3519E8330400ABE488 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				8424ED3619E8332200ABE488 /* YouTubeClient.swift */,
+				8424ED3819E83B1E00ABE488 /* YouTubeGPPClient.swift */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
 		84CDC8FC19E6E0E10031D6D2 = {
 			isa = PBXGroup;
 			children = (
+				8424ED3319E8311E00ABE488 /* BrandWatchBridgingHeader.m */,
+				84CDC92B19E6E9BC0031D6D2 /* TemplateIcon2x.png */,
 				84CDC90719E6E0E10031D6D2 /* TestOauth2 */,
+				84CDC92A19E6E9BC0031D6D2 /* Podfile */,
 				84CDC91D19E6E0E10031D6D2 /* TestOauth2Tests */,
 				84CDC90619E6E0E10031D6D2 /* Products */,
+				4929334C8E77460FB16970EB /* Pods.xcconfig */,
+				D764536E8DED4280B6BD66A5 /* Frameworks */,
+				8424ED3219E8311E00ABE488 /* TestOauth2-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,6 +107,7 @@
 		84CDC90719E6E0E10031D6D2 /* TestOauth2 */ = {
 			isa = PBXGroup;
 			children = (
+				8424ED3519E8330400ABE488 /* API */,
 				84CDC90A19E6E0E10031D6D2 /* AppDelegate.swift */,
 				84CDC90C19E6E0E10031D6D2 /* ViewController.swift */,
 				84CDC90E19E6E0E10031D6D2 /* Main.storyboard */,
@@ -112,6 +143,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D764536E8DED4280B6BD66A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EBF6B0842FB04ED694917E9D /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,9 +158,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84CDC92419E6E0E10031D6D2 /* Build configuration list for PBXNativeTarget "TestOauth2" */;
 			buildPhases = (
+				D9EEDD3447A84131B2952C80 /* Check Pods Manifest.lock */,
 				84CDC90119E6E0E10031D6D2 /* Sources */,
 				84CDC90219E6E0E10031D6D2 /* Frameworks */,
 				84CDC90319E6E0E10031D6D2 /* Resources */,
+				9C4C122D6BD34CBC93B187BB /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -192,8 +233,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84CDC92D19E6E9BC0031D6D2 /* TemplateIcon2x.png in Resources */,
 				84CDC91019E6E0E10031D6D2 /* Main.storyboard in Resources */,
 				84CDC91519E6E0E10031D6D2 /* LaunchScreen.xib in Resources */,
+				84CDC92C19E6E9BC0031D6D2 /* Podfile in Resources */,
 				84CDC91219E6E0E10031D6D2 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -207,13 +250,49 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9C4C122D6BD34CBC93B187BB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9EEDD3447A84131B2952C80 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84CDC90119E6E0E10031D6D2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8424ED3919E83B1E00ABE488 /* YouTubeGPPClient.swift in Sources */,
 				84CDC90D19E6E0E10031D6D2 /* ViewController.swift in Sources */,
 				84CDC90B19E6E0E10031D6D2 /* AppDelegate.swift in Sources */,
+				8424ED3719E8332200ABE488 /* YouTubeClient.swift in Sources */,
+				8424ED3419E8311E00ABE488 /* BrandWatchBridgingHeader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,21 +413,28 @@
 		};
 		84CDC92519E6E0E10031D6D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4929334C8E77460FB16970EB /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = TestOauth2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TestOauth2-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		84CDC92619E6E0E10031D6D2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4929334C8E77460FB16970EB /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = TestOauth2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TestOauth2-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -405,6 +491,7 @@
 				84CDC92619E6E0E10031D6D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84CDC92719E6E0E10031D6D2 /* Build configuration list for PBXNativeTarget "TestOauth2Tests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +500,7 @@
 				84CDC92919E6E0E10031D6D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
