@@ -24,10 +24,10 @@
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>CFBundleURLName</key>
-			<string>com.abdi.TestOauth2</string>
+			<string>com.abdi.testbw</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>TestOauth2</string>
+				<string>com.abdi.testbw.oauth2callback</string>
 			</array>
 		</dict>
 	</array>

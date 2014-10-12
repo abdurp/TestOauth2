@@ -41,7 +41,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(application: UIApplication, openURL url: NSURL, sourceApplication: String, annotation: AnyObject?) -> Bool {
         
-        println("came here..")
+        println("came here after login.")
 
         
         //GPPURLHandler.handleURL(url, sourceApplication: nil, annotation: nil)

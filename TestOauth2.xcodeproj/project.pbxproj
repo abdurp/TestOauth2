@@ -37,7 +37,7 @@
 		8424ED3319E8311E00ABE488 /* BrandWatchBridgingHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrandWatchBridgingHeader.m; sourceTree = "<group>"; };
 		8424ED3619E8332200ABE488 /* YouTubeClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YouTubeClient.swift; sourceTree = "<group>"; };
 		8424ED3819E83B1E00ABE488 /* YouTubeGPPClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YouTubeGPPClient.swift; sourceTree = "<group>"; };
-		84CDC90519E6E0E10031D6D2 /* TestOauth2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestOauth2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84CDC90519E6E0E10031D6D2 /* testbw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testbw.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84CDC90919E6E0E10031D6D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84CDC90A19E6E0E10031D6D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84CDC90C19E6E0E10031D6D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -98,7 +98,7 @@
 		84CDC90619E6E0E10031D6D2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				84CDC90519E6E0E10031D6D2 /* TestOauth2.app */,
+				84CDC90519E6E0E10031D6D2 /* testbw.app */,
 				84CDC91A19E6E0E10031D6D2 /* TestOauth2Tests.xctest */,
 			);
 			name = Products;
@@ -170,7 +170,7 @@
 			);
 			name = TestOauth2;
 			productName = TestOauth2;
-			productReference = 84CDC90519E6E0E10031D6D2 /* TestOauth2.app */;
+			productReference = 84CDC90519E6E0E10031D6D2 /* testbw.app */;
 			productType = "com.apple.product-type.application";
 		};
 		84CDC91919E6E0E10031D6D2 /* TestOauth2Tests */ = {
@@ -419,7 +419,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = TestOauth2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = testbw;
 				SWIFT_OBJC_BRIDGING_HEADER = "TestOauth2-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -433,7 +433,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = TestOauth2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = testbw;
 				SWIFT_OBJC_BRIDGING_HEADER = "TestOauth2-Bridging-Header.h";
 			};
 			name = Release;
